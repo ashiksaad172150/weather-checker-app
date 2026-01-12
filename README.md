@@ -6,7 +6,7 @@ A modern, responsive **Weather App** built with **HTML, CSS, and JavaScript** th
 Designed with a clean UI/UX, includes search functionality, and works across devices.
 
 ---
-[🔗Live Website: ](https://shreya-sikder.github.io/Weather-Checker/)
+[🔗Live Website: ](https://ashiksaad172150.github.io/weather-checker-app/)
 
 
 ---
