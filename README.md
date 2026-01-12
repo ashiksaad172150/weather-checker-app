@@ -36,3 +36,4 @@ Designed with a clean UI/UX, includes search functionality, and works across dev
 - **JavaScript (ES6)** – Fetch API and DOM updates
 - **Font Awesome** – Icons
 - **WeatherAPI** – Weather data
+

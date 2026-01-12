@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <h1 class="app-title">Weather App</h1>
+
+            <form id="searchForm" class="search" aria-label="Search weather by city">
+                <label for="cityInput" class="visually-hidden">Enter city</label>
+                <input id="cityInput" name="city" type="text" placeholder="Enter city..." autocomplete="off"
+                    inputmode="text" aria-autocomplete="list" required />
+                <button type="submit" id="searchBtn" aria-label="Search">Search</button>
+            </form>
+        </header>
+
+        <main class="main" id="main" role="main" aria-live="polite">
+            <section class="card" id="weatherCard" hidden>
+                <div class="location-row">
+                    <div>
+                        <h2 id="cityName" class="city">--</h2>
+                        <p id="localTime" class="local-time">--</p>
+                    </div>
+                    <div id="iconWrap" class="icon-wrap" aria-hidden="true">
+                       
+                    </div>
+                </div>
+
+                <div class="temp-row">
+                    <p id="temperature" class="temp">--°C</p>
+                    <div class="condition-block">
+                        <p id="condition" class="condition">--</p>
+                    </div>
+                </div>
+
+                <div class="extra">
+                    <div class="extra-item"><strong>Humidity</strong><span id="humidity">--%</span></div>
+                    <div class="extra-item"><strong>Wind</strong><span id="wind">-- km/h</span></div>
+                    <div class="extra-item"><strong>Feels like</strong><span id="feelslike">--°C</span></div>
+                </div>
+            </section>
+
+            <div id="message" class="message">Search a city above to get current weather.</div>
+        </main>
+
+        <footer class="footer">
+            <small>Developed by Ashik Saad</small>
+            <div class="social-links">
+                <a href="https://github.com/ashiksaad172150" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.reddit.com/user/ashiksaad97/" aria-label="Reddit">
+                    <i class="fab fa-reddit"></i>
+                </a>
+            </div>
+        </footer>
+        
+        <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
